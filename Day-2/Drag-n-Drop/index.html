@@ -3,18 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Drag and Drop</title>
+    <title>Drag and Drop</title>
     <style>
-        body { text-align: center; font-family: Arial, sans-serif; }
-        ul { list-style: none; padding: 0; width: 200px; margin: auto; border: 2px solid #ddd; padding: 10px; }
+        body { 
+            text-align: center; 
+            font-family: Arial, sans-serif; 
+            background-color: #f0f0f0; 
+            padding: 40px;
+        }
+        
+        h2 {
+            color: #444;
+            font-size: 24px;
+        }
+
+        
+        ul {
+            list-style: none;
+            padding: 0;
+            width: 80%; 
+            margin: auto;
+            border-radius: 15px;
+            background: white;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+            padding: 20px;
+        }
+
+        
         li {
-            padding: 10px;
-            margin: 5px;
-            background: #007bff;
+            padding: 15px;
+            margin: 10px;
+            height: 50px;
+            background: linear-gradient(135deg, #ff8c00, #ff2e63); 
             color: white;
             cursor: grab;
-            border-radius: 5px;
+            border-radius: 30px;
             text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+        }
+
+        
+        li:hover {
+            transform: scale(1.08);
+            box-shadow: 4px 4px 12px rgba(255, 46, 99, 0.4);
+            background: linear-gradient(135deg, #ff652f, #ff005c);
         }
     </style>
 </head>
@@ -27,7 +62,7 @@
         <li draggable="true">Solutions</li>
     </ul>
 
-    <script src="script.js" />
+    <script src="script.js"></script>
 
 </body>
 </html>
