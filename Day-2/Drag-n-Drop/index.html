@@ -3,31 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drag and Drop List</title>
+    <title>Simple Drag and Drop</title>
     <style>
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
+        body { text-align: center; font-family: Arial, sans-serif; }
+        ul { list-style: none; padding: 0; width: 200px; margin: auto; border: 2px solid #ddd; padding: 10px; }
         li {
             padding: 10px;
             margin: 5px;
-            background-color: #f4f4f4;
-            border: 1px solid #ddd;
-            cursor: move;
+            background: #007bff;
+            color: white;
+            cursor: grab;
+            border-radius: 5px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
 
-    <h3>Drag and Drop List</h3>
-    <ul id="sortableList">
-        <li draggable="true">Item 1</li>
-        <li draggable="true">Item 2</li>
-        <li draggable="true">Item 3</li>
-        <li draggable="true">Item 4</li>
+    <h2>Drag-n-Drop</h2>
+    <ul id="list">
+        <li draggable="true">Benchmark</li>
+        <li draggable="true">IT</li>
+        <li draggable="true">Solutions</li>
     </ul>
 
-    <script src="script.js"></script>
+    <script src="script.js" />
+
 </body>
 </html>
