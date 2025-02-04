@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Image Carousel</title>
+    <style>
+        /* Centering and styling the carousel */
+        .carousel-container {
+            width: 100%;
+            margin: auto;
+            position: relative;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .carousel-img {
+            width: 100%;
+            height: 90%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* Buttons */
+        .carousel-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 20px;
+        }
+
+        .prev-btn {
+            left: 10px;
+        }
+
+        .next-btn {
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="carousel-container">
+        <button class="carousel-btn prev-btn" id="prevBtn">❮</button>
+        <img id="carouselImage" class="carousel-img" src="image1.jpg" alt="Carousel Image">
+        <button class="carousel-btn next-btn" id="nextBtn">❯</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
