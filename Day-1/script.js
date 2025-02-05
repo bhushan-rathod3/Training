@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded' , () => {
     const buttonTodo = document.getElementById('button-todo');
     const ulTodo = document.getElementById('ul-todo');
 
-    //console.log(inputTodo , buttonTodo , ulTodo);
+
     const clear = document.querySelector('.btn-clear');
 
     const createTodo = (task) =>{
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded' , () => {
 
     ulTodo.addEventListener('click' , (e) => {
         if(e.target.classList.contains('btn-danger')){
-            //console.log('Edit');
+            
             const li = e.target.closest('.list-group-item');
             let text = li.querySelector('.text-todo').textContent;
             li.innerHTML = `<input type="text" class="form-control edit-input" id="input-todo" value="${text}">
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded' , () => {
         }
 
         if(e.target.classList.contains("btn-warning")){
-            //console.log('Delete');
+            
             e.target.closest(".list-group-item").remove();
         }
 

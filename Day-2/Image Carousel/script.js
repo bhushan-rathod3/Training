@@ -4,32 +4,25 @@ const images = [
     "image3.jpg"
 ];
 
-
-  
-
-
 const carouselImage = document.getElementById("carouselImage");
-        const nextBtn = document.getElementById("nextBtn");
-        const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
+const prevBtn = document.getElementById("prevBtn");
 
-        let currentIndex = 0;
+let currentIndex = 0;
+    
+ function updateImage() {
+    carouselImage.src = images[currentIndex];
+}
+       
+nextBtn.addEventListener("click", function() {
+    currentIndex = (currentIndex + 1) % images.length;
+    updateImage();
+});
 
-        // Function to update the image
-        function updateImage() {
-            carouselImage.src = images[currentIndex];
-        }
+        
+prevBtn.addEventListener("click", function() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    updateImage();
+});
 
-        // Next button click event
-        nextBtn.addEventListener("click", function() {
-            currentIndex = (currentIndex + 1) % images.length;
-            updateImage();
-        });
-
-        // Previous button click event
-        prevBtn.addEventListener("click", function() {
-            currentIndex = (currentIndex - 1 + images.length) % images.length;
-            updateImage();
-        });
-
-        // Initial image setup
-        updateImage();
+updateImage();

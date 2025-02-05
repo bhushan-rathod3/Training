@@ -1,9 +1,3 @@
-// ## Employee Management System
-
-// Create Employee class with name, id, #salary.
-// Subclasses: Manager, Engineer, Intern.
-// Polymorphism: Override calculateBonus() for each role.
-
 class Employee{
     #salary;
 
