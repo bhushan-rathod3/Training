@@ -8,13 +8,14 @@ function addData() {
 }
 
 function clearMemory() {
-    arrayLeak = [];
+    arrayLeak = [];  
     console.log("Memory Cleared");
 }
 
-setInterval(addData, 1000);
+let addInterval = setInterval(addData, 1000);
 
-setInterval(() => {
-    clearInterval(addData);
+
+setTimeout(() => {
+    clearInterval(addInterval);
     clearMemory();
 }, 10000);
