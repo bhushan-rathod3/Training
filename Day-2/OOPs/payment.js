@@ -37,5 +37,5 @@ const creditCardPayment = new CreditCardPayment(5000,'2025-02-04',1284281);
 const payPalPayment = new PayPalPayment(5000,'2025-02-04','bsr@gmail.com');
 const cryptoPayment = new CryptoPayment(5000,'2025-02-04','cryp@crypto');
 
-console.log(creditCardPayment.cardNumber); 
-console.log(payPalPayment.amount);
+console.log(creditCardPayment.cardNumber); //OUTPUT - undefined
+console.log(payPalPayment.amount); //OUTPUT - 5000

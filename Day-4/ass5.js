@@ -31,3 +31,13 @@ console.log("Filtered Odd Numbers : " ,processData([1,2,3,4,5,6,7,8,9,10] , filt
 console.log("Doubled Odd Numbers : " , processData([1,2,3,4,5,6,7,8,9,10] , doubleNumbers));
 console.log( "Sum of all numbers : " , processData([1,2,3,4,5,6,7,8,9,10] , calculateSum));
 console.log("Max number in array : " , processData([1,2,3,4,5,6,7,8,9,10] , maxNumber));
+
+/* OUTPUT - 
+Filtered Odd Numbers :  [ 1, 3, 5, 7, 9 ]
+Doubled Odd Numbers :  [
+   2,  4,  6,  8, 10,
+  12, 14, 16, 18, 20
+]
+Sum of all numbers :  55
+Max number in array :  10
+*/

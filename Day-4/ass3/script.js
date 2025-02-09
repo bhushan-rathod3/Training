@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const startButton = document.querySelector('.start');
+    startButton.addEventListener('click' , addData);
+})
+
 let arrayLeak = [];
 
 function addData() {

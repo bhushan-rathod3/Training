@@ -45,6 +45,6 @@ const car = new Car('BMW' , 'm5' , 5000);
 const bike = new Bike('Hero' , 'Splendor' , 500);
 const truck = new Truck('Volvo' , 'ACL' , 8000);
 
-console.log(car.calculateRentalCost(5));
-console.log(bike.calculateRentalCost(5));
-console.log(truck.calculateRentalCost(5));
+console.log(car.calculateRentalCost(5)); //OUTPUT - BMW m5's Rent for 5 days is  25000Rs.
+console.log(bike.calculateRentalCost(5)); //OUTPUT - Hero Splendor's Rent for 5 days is  2500Rs.
+console.log(truck.calculateRentalCost(5)); //OUTPUT - Volvo ACL's Rent for 5 days is  40000Rs.

@@ -62,3 +62,16 @@ console.log(intern.getSalary());
 console.log(manager.calculateBonus());
 console.log(engineer.calculateBonus());
 console.log(intern.calculateBonus());
+
+
+/*OUTPUT 
+25000
+25000
+25000
+Manager's Bonus
+5000
+Engineer's Bonus
+7500
+Intern's Bonus
+2500
+*/

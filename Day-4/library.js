@@ -39,3 +39,21 @@ console.log(bookLibrary.getBooksByAuthor("James Clear"));
 bookLibrary.removeBook("The Hobbit");
 
 console.log(bookLibrary.getAllBooks());
+
+/* OUTPUT - 
+The Hobbit was added to the library
+Atomic Habits was added to the library
+How to Win Friends and Influence People was added to the library
+
+[
+  {
+    title: 'Atomic Habits',
+    author: 'James Clear',
+    yearPublished: 2018
+  }
+]
+
+Removed book The Hobbit
+
+[ 'Atomic Habits', 'How to Win Friends and Influence People' ]
+*/

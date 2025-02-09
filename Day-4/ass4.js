@@ -7,13 +7,19 @@ const products = [
 ];
 
 const captialProductNames = products.map(product => product.name.toUpperCase());
-console.log(captialProductNames);
+console.log(captialProductNames);  //OUTPUT - [ 'CHARGER', 'SHOES', 'HEADPHONES', 'T-SHIRT', 'SPINNER' ]
+
 
 const electronicGadgets = products.filter(product => product.category === "Electronics")
-console.log(electronicGadgets);
+console.log(electronicGadgets); /* OUTPUT - 
+        [
+            { name: 'Charger', price: 800, category: 'Electronics' },
+            { name: 'Headphones', price: 150, category: 'Electronics' }
+        ]
+                                */
 
 const totalPrice = products.reduce((total , product) => total + product.price , 0);
-console.log(totalPrice);
+console.log(totalPrice); //OUTPUT - 1670
 
 function calculateTotalFromCategory(category){
     return products
@@ -23,4 +29,4 @@ function calculateTotalFromCategory(category){
 
 }
 
-console.log(calculateTotalFromCategory("Electronics"))
+console.log(calculateTotalFromCategory("Electronics")) //OUTPUT - 950
