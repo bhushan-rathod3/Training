@@ -18,3 +18,6 @@
 
 ▶️ [Watch the Video](https://drive.google.com/file/d/1RUY0wolwvfnu4cxjayo3YgHMjIcZWXU6/view?usp=sharing)
 
+# DAY-5 => SECURITY, FAKESTORE E-COMMERCE WEBSITE
+
+▶️ [Watch the Video](https://drive.google.com/file/d/18cXYJmUJ4xfz3tJM3U6ntVyuwgIrnZkn/view?usp=sharing)
