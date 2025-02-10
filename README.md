@@ -1,2 +1,20 @@
 # DAY-1 => To-Do-List , Closures
-# DAY-2 => OOPS
+
+▶️ [Watch the Video](https://drive.google.com/file/d/1XFnWrNNQYrVqUq-YP8VsIaRd9cc84oA0/view?usp=sharing)
+
+▶️ [Watch the Video](https://drive.google.com/file/d/1VryGjjN_j0OBGF9swMaPNIkfF9XmIw0p/view?usp=sharing)
+
+# DAY-2 => OOPS , DRAG-N-DROP , IMAGE CAROUSEL
+
+▶️ [Watch the Video](https://drive.google.com/file/d/1I-yNSH0QZsstK9zuKursHugIvhohACTo/view?usp=sharing)
+
+▶️ [Watch the Video](https://drive.google.com/file/d/1BPbDcug4BI_9aIwzIUzP0CEba0QuHJTM/view?usp=sharing)
+
+# DAY-3 => AXIOS , TODO-AXIOS
+
+▶️ [Watch the Video](https://drive.google.com/file/d/1wKhuf73-Q84CkvzW5htnUrwbqtVzgNh9/view?usp=sharing)
+
+# DAY-4 => CALLBACK AND OTHER FUNCTIONS , MEMORY LEAK
+
+▶️ [Watch the Video](https://drive.google.com/file/d/1RUY0wolwvfnu4cxjayo3YgHMjIcZWXU6/view?usp=sharing)
+
