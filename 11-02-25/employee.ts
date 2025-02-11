@@ -1,22 +1,3 @@
-/*
-# Assignment
-
-## Employee Management System
-
-Create Employee class with name, id, #salary.
-Subclasses: Manager, Engineer, Intern.
-Polymorphism: Override calculateBonus() for each role.
-
-## Vehicle Rental System
-
-
-## Online Payment System
-
-Create Payment class with amount, date.
-Subclasses: CreditCardPayment, PayPalPayment, CryptoPayment.
-Abstraction: Hide sensitive details like #cardNumber.
-*/
-
 abstract class Employee{
     constructor(public name: string , public id: number , private salary:number = 0){}
     abstract calculateBonus(): number;

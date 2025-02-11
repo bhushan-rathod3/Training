@@ -1,10 +1,3 @@
-/*
-## Online Payment System
-
-Create Payment class with amount, date.
-Subclasses: CreditCardPayment, PayPalPayment, CryptoPayment.
-Abstraction: Hide sensitive details like #cardNumber.
-*/
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
