@@ -1,3 +1,5 @@
+## WEEK-1 ##
+
 # DAY-1 => To-Do-List , Closures
 
 ▶️ [Watch the Video](https://drive.google.com/file/d/1XFnWrNNQYrVqUq-YP8VsIaRd9cc84oA0/view?usp=sharing)
@@ -21,3 +23,10 @@
 # DAY-5 => SECURITY, FAKESTORE E-COMMERCE WEBSITE
 
 ▶️ [Watch the Video](https://drive.google.com/file/d/18cXYJmUJ4xfz3tJM3U6ntVyuwgIrnZkn/view?usp=sharing)
+
+## WEEK-2 ## 
+# TYPESCRIPT
+
+# 12-02-25 => INTERFACE,CLASS
+
+▶️ [Watch the Video](https://drive.google.com/file/d/1il4qhv9w0tfVJoMCEbYeS5vT7E-tfP2m/view?usp=sharing)
