@@ -43,6 +43,7 @@ const FormComponent = () => {
     const form = e.currentTarget as HTMLFormElement;
     if (form.checkValidity() === false) {
       setValidated(true);
+      alert("Please fill all fields");
     } else {
       alert("Form Submitted Successfully!");
       setFormData(initialState);
