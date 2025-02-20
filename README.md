@@ -43,3 +43,7 @@
 # 18-02-25 => ToDo - React
 
 ▶️ [Watch the Video](https://drive.google.com/file/d/1poFka8-aytP6C8uBelq6eykRj7UJ8wU6/view?usp=sharing)
+
+# 19-02-25
+
+▶️ [Watch the Video](https://drive.google.com/file/d/1fH5S3EaGDrNUuBIS1EBvdXcBkwtg4qB3/view?usp=sharing)
