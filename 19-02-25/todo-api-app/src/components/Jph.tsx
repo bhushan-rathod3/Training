@@ -46,7 +46,6 @@ export default function App() {
     }
   };
 
-  // Create Post (Right Section)
   const createPost = async () => {
     if (!title.trim() || !body.trim()) return;
     setLoading(true);
@@ -56,7 +55,7 @@ export default function App() {
       const res = await fetch(`https://jsonplaceholder.typicode.com/posts`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ title, body }), // Removed userId
+        body: JSON.stringify({ title, body }),
       });
       const data = await res.json();
 
@@ -71,9 +70,8 @@ export default function App() {
     }
   };
 
-  // Delete Post
   const deletePost = async () => {
-    if (!post) return; // Only allow delete if post exists
+    if (!post) return;
     setLoading(true);
     setError(null);
 
@@ -94,7 +92,6 @@ export default function App() {
   return (
     <Container maxWidth="md">
       <Grid container spacing={3} sx={{ marginTop: 4 }}>
-        {/* Left Section - Fetching Posts */}
         <Grid item xs={12} md={6}>
           <Paper elevation={3} sx={{ padding: 3 }}>
             <Typography variant="h5" gutterBottom>
@@ -143,7 +140,6 @@ export default function App() {
           </Paper>
         </Grid>
 
-        {/* Right Section - Create Post */}
         <Grid item xs={12} md={6}>
           <Paper elevation={3} sx={{ padding: 3 }}>
             <Typography variant="h5" gutterBottom>
@@ -185,13 +181,12 @@ export default function App() {
         </Grid>
       </Grid>
 
-      {/* Delete Fetched Post (Bottom Section) */}
       <Box sx={{ marginTop: 4, textAlign: "center" }}>
         <Button
           variant="contained"
           color="error"
           onClick={deletePost}
-          disabled={!post} // Disable if no post is fetched
+          disabled={!post}
         >
           Delete Fetched Post
         </Button>
