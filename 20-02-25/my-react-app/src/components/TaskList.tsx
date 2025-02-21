@@ -3,7 +3,7 @@ import { useTaskContext } from "./TaskContext";
 import TaskItem from "./TaskItem";
 
 const TaskList: React.FC = React.memo(() => {
-  console.log("📜 TaskList rendered!");
+  //console.log("📜 TaskList rendered!");
 
   const { tasks } = useTaskContext();
 

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useTaskContext } from "./TaskContext";
 
 const TaskForm: React.FC = React.memo(() => {
-  console.log("📝 TaskForm rendered!");
+  //console.log("📝 TaskForm rendered!");
 
   const { addTask } = useTaskContext();
   const [text, setText] = useState("");

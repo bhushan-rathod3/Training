@@ -64,7 +64,6 @@ export const TaskProvider: React.FC<{ children: React.ReactNode }> = ({
     dispatch({ type: "TOGGLE_TASK", id });
   }, []);
 
-  // ✅ Memoized calculation (Runs only when tasks change)
   const completedTaskCount = useMemo(() => {
     console.log("🔢 Calculating completed task count...");
     return tasks.filter((task) => task.completed).length;

@@ -7,7 +7,7 @@ interface TaskProps {
 
 const TaskItem: React.FC<TaskProps> = React.memo(
   ({ task }) => {
-    console.log(`🟢 TaskItem rendered: ${task.text}`);
+    //console.log(`🟢 TaskItem rendered: ${task.text}`);
 
     const { toggleTask, removeTask } = useTaskContext();
 
@@ -24,6 +24,5 @@ const TaskItem: React.FC<TaskProps> = React.memo(
     );
   },
   (prevProps, nextProps) => prevProps.task === nextProps.task
-); // Ensures TaskItem re-renders only if task changes
-
+);
 export default TaskItem;
