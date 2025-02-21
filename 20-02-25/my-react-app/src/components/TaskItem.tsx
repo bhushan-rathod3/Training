@@ -18,7 +18,9 @@ const TaskItem: React.FC<TaskProps> = React.memo(
         >
           {task.text}
         </span>
-        <button onClick={() => toggleTask(task.id)}>Toggle</button>
+        <button onClick={() => toggleTask(task.id)}>
+          {task.completed ? "Incomplete" : "Completed"}
+        </button>
         <button onClick={() => removeTask(task.id)}>Remove</button>
       </div>
     );
