@@ -1,0 +1,24 @@
+/* Center everything */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Ensure content is aligned properly */
+#root {
+  text-align: center;
+  width: 100%;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+}
