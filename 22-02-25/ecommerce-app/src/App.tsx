@@ -18,11 +18,8 @@ const App = () => {
     <QueryClientProvider client={queryClient}>
       <CartProvider>
         <ProductProvider>
-          {" "}
           <Router>
-            {" "}
             <AuthProvider>
-              {" "}
               <Navbar />
               <Routes>
                 <Route path="/" element={<Home />} />

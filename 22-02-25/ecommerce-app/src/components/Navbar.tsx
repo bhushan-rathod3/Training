@@ -22,7 +22,7 @@ const Navbar = () => {
           component={Link}
           to="/"
           sx={{ textDecoration: "none", color: "white" }}
-          onClick={() => fetchProductsByCategory("")} // ✅ Fetch all products
+          onClick={() => fetchProductsByCategory("")}
         >
           E-Commerce
         </Typography>
